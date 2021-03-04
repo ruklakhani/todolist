@@ -11,7 +11,7 @@ function Todo({ todo, toggleComplete, removeTodo}) {
 
     return (
 
-        <div class="d-flex align-items-center">
+        <div class="d-flex align-items-center mb-2">
             <div class="pretty p-curve p-default mr-2">
                 <input type="checkbox" onClick={handleCheckboxClick}/>
                 <div class="state p-light">
